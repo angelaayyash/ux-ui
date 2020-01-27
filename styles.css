@@ -1,0 +1,95 @@
+body {
+  font-family: "Open Sans Condensed", sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #002f8c;
+  color: wheat;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+.logo img {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+.company {
+  display: flex;
+}
+.compname {
+  color: antiquewhite;
+}
+.login {
+  color: antiquewhite;
+  margin-right: 20px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h1 {
+  font-size: 30px;
+  color: black;
+}
+ul {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  font-size: 40px;
+}
+h2 {
+  font-size: 60px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+img {
+  height: 600px;
+  width: 600px;
+  border-radius: 50%;
+  object-fit: cover;
+  padding: 20px;
+}
+.user {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.text {
+  font-size: 24px;
+  padding: 30px;
+}
+.favorites {
+  display: flex;
+  justify-content: center;
+}
+
+.items {
+  display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+  .items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .favorites {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
